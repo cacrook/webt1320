@@ -1,3 +1,5 @@
 ## WEBT 1320 Project Page! What a Concept!
 
-<a href="example/index.html" target="_blank"> Example Page</a>
+<h1>Project List</h1>
+
+<a href="project1/index.html" target="_blank"> Project 1</a>
