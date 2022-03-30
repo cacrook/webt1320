@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    background-color: #F26D6D;
+    background-color: #f26d6d;
     width: 900px;
     margin: 20px auto;
     border-radius: 20px;
@@ -13,13 +13,13 @@ body {
 
 header {
     padding-top: 20px 0;
-    background-color: #CEF299;
+    background-color: #292b26;
     border-radius: 20px 20px 0 0;
 }
 
 header img {
     display: block;
-    width: 30%;
+    width: 45%;
     margin: 0px auto;
 }
 
@@ -27,8 +27,8 @@ header h1 {
     font-family: 'Rock 3D', cursive;
     font-size: 3em;
     text-align: center;
-    color: #F26D6D;
-    text-shadow: 2px 2px 2px black;
+    color: #dbe0be;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 nav {
@@ -52,8 +52,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #4C5973;
-    color: #CEF299;
+    background-color: #6b6107;
+    color: #f29999;
 }
 
 main {
@@ -79,7 +79,7 @@ main img {
 }
 
 footer {
-    background-color: #CEF299;
+    background-color: #292b26;
     padding: 60px 0;
     color: #F26D6D;
     font-size: 1.5em;
@@ -88,8 +88,8 @@ footer {
 }
 
 .active {
-    background-color: #4C5973;
-    color: #CEF299;
+    background-color: #6b6107;
+    color: #f29999;
 }
 
 .pro_head {
