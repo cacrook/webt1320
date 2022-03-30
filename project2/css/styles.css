@@ -1,5 +1,6 @@
 body {
     background-color: #4C5973;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #container {
@@ -7,6 +8,7 @@ body {
     width: 900px;
     margin: 20px auto;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
 }
 
 header {
@@ -22,9 +24,11 @@ header img {
 }
 
 header h1 {
+    font-family: 'Rock 3D', cursive;
     font-size: 3em;
     text-align: center;
     color: #F26D6D;
+    text-shadow: 2px 2px 2px black;
 }
 
 nav {
@@ -59,6 +63,7 @@ main {
 }
 
 main h2 {
+    font-family: 'Rock 3D', cursive;
     text-align: center;
     color: #4C5973;
     font-size: 2em;
