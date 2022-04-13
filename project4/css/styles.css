@@ -1,0 +1,227 @@
+/* Global Styles */
+body {
+    background-color: #B0BF78;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color:#99BFF2;
+}
+
+header {
+    background-image: url("../images/golf-course.png");
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+header h1 {
+    color: #BF625A;
+    text-shadow: 2px 2px 2px #0D0D0D;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #99BFF2;
+    padding: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color:#B0BF78;
+    text-shadow: 2px 2px 2px #0D0D0D;
+}
+
+nav, section, aside, .col, footer {
+    background-color:#F2CF63;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid #BF625A;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color:#BF625A;
+    text-shadow: 2px 2px 2px #0D0D0D;
+    font-size: 1.5 em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 50%;
+}
+
+.button {
+    display: block;
+    background-color: #99BFF2;
+    padding: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.button:hover {
+    background-color:#BF625A;
+    text-shadow: 2px 2px 2px #0D0D0D;
+}
+
+footer {
+    text-align: center;
+    color:#99BFF2;
+    margin-bottom: 20px;
+}
+
+.single_call {
+    width: 100%;
+}
+
+.single_call {
+    width: 82.5%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px;
+    width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery_img {
+    border: 4px solid #0d0d0d;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    .col img {
+        width: 75%;
+        border-radius: 10px;
+        border: 4px solid #0d0d0d;
+    }
+
+    .single_call {
+        width: 95%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: solid #0D0D0D;
+        border-radius: 10px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    col {
+        width: 100%;
+    }
+    col img {
+        width: 100%;
+    }
+    
+    .single_call {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #0D0D0D;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .table_img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+}
